@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet"> 
+    <title>Encryptor Challenge</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.svg" alt="Logo">
+    </header>
+    <main>
+        <section class="input-section">
+            <div class="text-box-container">
+                <textarea id="text-input" placeholder="Enter your text"></textarea>
+            </div>
+            <div class="restriction-alert">
+                <img src="images/alert.svg" alt="Alert">
+                <p>Only use lowercase letters without accents.</p>
+            </div>
+            <div class="button-container">
+                <button id="encrypt-btn">Encrypt</button>
+                <button id="decrypt-btn">Decrypt</button>
+            </div>
+        </section>
+        <section class="output-section">
+            <div class="image-boy-container">
+                <img src="images/boy.svg" alt="Boy">
+            </div>
+            <div class="paragraph-container">
+                <h3>No message <br> found</h3>
+                <p>Enter a text you want to encrypt and <br> decrypt.</p>
+            </div>
+            <div class="copy-container">
+                <button id="copy-btn">Copy</button>
+            </div>
+            <div class="result-container">
+                <p id="result-text"></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
