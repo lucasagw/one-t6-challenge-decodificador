@@ -198,3 +198,12 @@ main {
 .hide-elements {
     display: none;
 }
+
+.rodape {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    text-align: center;
+    padding: 20px 0;
+    color: #495057;
+}
