@@ -227,7 +227,13 @@ footer > p {
     font-size: 0.8em;
 }
 
-footer p:hover {
+footer > p > a{
+    color: var(--text-color-white);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
     text-decoration: underline;
     color: var(--background-color-btn-decrypt);
 }
