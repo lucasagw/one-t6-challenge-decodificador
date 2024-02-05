@@ -19,4 +19,4 @@ As "chaves" de criptografia utilizadas são:
 - Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos;
 - Extra! (Um rodapé com os dados da pessoa que desenvolveu o site).
 
-![decoder](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=2-213&mode=design&t=XMd67hNztXoRGvoF-4)
+![decoder](https://github.com/lucasagw/one-t6-challenge-decodificador/blob/main/images/decodificador_desktop.svg)
