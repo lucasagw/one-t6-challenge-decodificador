@@ -201,9 +201,10 @@ main {
 
 .rodape {
     position: absolute;
-    width: 100%;
-    top: 100%;
+    top: 800px;
+    left: 80px;
+    padding-left: 15%;
+    padding-top: 15px;
     text-align: center;
-    padding: 20px 0;
-    color: #495057;
+    color: #495057;    
 }
